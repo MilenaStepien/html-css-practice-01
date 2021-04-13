@@ -1,6 +1,6 @@
 :root {
-    --main-font: font-family: 'Open Sans', sans-serif;
-    --secondary-font: font-family: 'Raleway', sans-serif;
+    --main-font: 'Open Sans', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
     --main-color: #ff6c00;
 }
 
