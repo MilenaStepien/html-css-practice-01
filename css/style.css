@@ -1,65 +1,99 @@
 :root {
-    --main-font: 'Open Sans', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
-    --main-color: #ff6c00;
+  --main-font: "Open Sans", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #ff6c00;
 }
 
 body {
-    font-family: var(--main-font);
+  font-family: var(--main-font);
 }
 /* ======= COMPONENTS ======= */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+p {
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding: 15px;
+}
 
 .modal-btn {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    /* color: #FFFFFF; */
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  /* color: #FFFFFF; */
 }
 
 .address {
-    font-style: normal;
+  font-style: normal;
 }
 
 .social-links {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.364;
-    letter-spacing: 0.2em;
-    color: #303030;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.2em;
+  color: #303030;
 }
 
 .social-links__link:hover,
 .social-links__link:focus {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 .description {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.667;
-    letter-spacing: 0.02em;
-    color: #555555;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: #555555;
 }
 .undertitle {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.364;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .undertitle-light-theme,
 .secondary-header-light-theme {
-    color: #303030;
+  color: #303030;
 }
 .undertitle-dark-theme {
-    color: rgba(157, 164, 189, 0.6);
+  color: rgba(157, 164, 189, 0.6);
 }
 
 .secondary-header-dark-theme {
-    /* color: #fff; */
+  /* color: #fff; */
 }
 
 /* ======= END COMPONENT ======= */
@@ -68,18 +102,18 @@ body {
 
 .navigation-list-link,
 .adress-phone-number {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.333;
-    letter-spacing: 0.1em;
-    /* color: #FFFFFF;  */
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.1em;
+  /* color: #FFFFFF;  */
 }
 
 .navigation-list-link:hover,
 .navigation-list-link:focus,
 .adress-phone-number:hover,
 .adress-phone-number:focus {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 /* ======= END HEADER ======= */
@@ -87,86 +121,85 @@ body {
 /* ======= HERO ======= */
 
 .main-header {
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 1.181;
-    letter-spacing: 0.05em;
-    /* color: #FFFFFF; */
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.181;
+  letter-spacing: 0.05em;
+  /* color: #FFFFFF; */
 }
 
 .hero .description {
-    color: #9DA4BD;
+  color: #9da4bd;
 }
 
 /* ======= END HERO ======= */
 
 /* ======= ABOUT ======= */
 .secondary-header {
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 1.167;
-    letter-spacing: 0.05em;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.167;
+  letter-spacing: 0.05em;
 }
 .about__right-side-description {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.857;
-    letter-spacing: 0.02em;
-    color: #555555;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.857;
+  letter-spacing: 0.02em;
+  color: #555555;
 }
 /* ======= END ABOUT ======= */
 
 /* ======= SERVICES ======= */
 .services-list-item-name,
-.services-list-item-price  {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.667;
-    letter-spacing: 0.02em;
-    color: #9DA4BD; 
+.services-list-item-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
 }
 /* ======= END SERVICES ======= */
 
 /* ======= WHY US ======= */
 
 .why-us__list-counter {
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 1.357;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #303030;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.357;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
 }
 .why-us__list-text {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.364;
-    text-align: center;
-    color: #303030;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  text-align: center;
+  color: #303030;
 }
-
 
 /* ======= END WHY US ======= */
 
 /* ======= BARBERS ======= */
 .barbers__list-name {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.389;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #303030;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.389;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #303030;
 }
 
 .barbers__list-job {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.357;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--main-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.357;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 
 /* ======= END BARBERS ======= */
@@ -177,15 +210,15 @@ body {
 /* ======= CONTACT ======= */
 .address__list-link,
 .contact-hours {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.667;
-    letter-spacing: 0.02em;
-    color: #9DA4BD;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
 }
 
 .contact__info .undertitle {
-    /* color: #fff; */
+  /* color: #fff; */
 }
 
 /* ======= END CONTACT ======= */
@@ -193,11 +226,11 @@ body {
 /* ======= FOOTER ======= */
 
 .footer__copy {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.364;
-    letter-spacing: 0.2em;
-    color: #9DA4BD;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.2em;
+  color: #9da4bd;
 }
 
 /* ======= END FOOTER ======= */
